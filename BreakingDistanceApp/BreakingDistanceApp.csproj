@@ -6,4 +6,14 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="dashboard.jpg" />
+    <None Remove="IconCar.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="dashboard.jpg" />
+    <Resource Include="IconCar.png" />
+  </ItemGroup>
+
 </Project>
